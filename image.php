@@ -18,7 +18,7 @@ if ( $deployment == 'blue') {
 
 imagefilledrectangle($im, 0, 0, 199, 199, $color);
 
-// Save the image
+
 header('Content-Type: image/png');
 imagePNG($im);
 imagedestroy($im);
